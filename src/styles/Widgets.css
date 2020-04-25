@@ -1,0 +1,14 @@
+.widget-wrapper {
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #000072;
+}
+
+.widget-wrapper > .title {
+    margin: 0 auto;
+    color: white;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
