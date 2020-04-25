@@ -1,7 +1,16 @@
 export function binaryValidator(inputValue) {
     // check if input is binary (i.e. contains only 1s and 0s)
-    let inputArr = inputValue.split('');
+    let inputArr = [];
     let inputNumArr = [];
+
+    if(inputValue.length > 1)
+    {
+        inputArr = inputValue.split('');
+    }
+    else
+    {
+        inputArr = [inputValue];
+    }
 
     inputArr.forEach((element) => {
         inputNumArr.push(parseInt(element));
