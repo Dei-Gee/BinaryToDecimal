@@ -1,0 +1,63 @@
+.main-wrapper {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox {
+    background-color: white;
+    padding: 7px;
+    border: solid 1.5px #720000;
+    border-radius: 20px;
+    margin-top: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.convert-button {
+    width: 50vw;
+    border: none;
+    height: auto;
+    padding: 15px;
+    background-color: #720000;
+    color: white;
+    margin-top: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.result-display {
+    margin-top: 2.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: #720000;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .convert-button {
+        width: 35vw;
+        border: none;
+        height: auto;
+        padding: 25px;
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 1025px)
+{
+    .convert-button {
+        width: 15vw;
+        border: none;
+        height: auto;
+        padding: 15px;
+        font-size: large;
+    }
+}
